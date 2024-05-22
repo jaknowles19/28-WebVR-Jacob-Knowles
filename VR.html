@@ -13,7 +13,12 @@
 <body>
 
   <a-scene>
-    <a-plane id="floor" position="0 0 0" rotation="-90 0 0" width="200" height="200" color="blue"></a-plane>
+    <a-plane id="floor" position="0 0 -22" rotation="-90 0 0" width="50" height="50" color="blue"></a-plane>
+    <a-plane id="leftwall" position="-25 5 -22" rotation="0 90 0" width="50" height="10" color="black"></a-plane>
+    <a-plane id="rightwall" position="25 5 -22" rotation="0 -90 0" width="50" height="10" color="black"></a-plane>
+    <a-plane id="backwall" position="0 5 -47" rotation="0 0 0" width="50" height="10" color="black"></a-plane>
+    <a-plane id="frontwall" position="0 5 3" rotation="180 0 0" width="50" height="10" color="black"></a-plane>
+    <a-plane id="roof" position="0 10 -22" rotation="90 0 0" width="50" height="50" color="blue"></a-plane>
   </a-scene>
 
   <script src="script.js"></script>
