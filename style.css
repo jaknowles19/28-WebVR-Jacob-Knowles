@@ -34,18 +34,26 @@ html {
   color: white;
 }
 
+  h1 {
+    color: silver;
+  }
+
+  h3 {
+    color: silver;
+  }
+
  .button {
    
  }
 
  .landing-body {
    background-color: black;
-   height: auto;
+   height: 400px;
    border: 2px solid black
  }
 
  .landing-bottom {
    background-color: darkblue;
-   height: 70px;
+   height: 60px;
    border: 2px solid black
  }
