@@ -43,8 +43,11 @@ html {
   }
 
  .button {
-   
+   background-color:  #008CBA;
+   border: 2px solid #e7e7e7;
  }
+
+.button {border-radius: 12px;}
 
  .landing-body {
    background-color: black;
