@@ -49,9 +49,13 @@ html {
 
 .button {border-radius: 12px;}
 
+  .img {
+    size:50%;
+  }
+
  .landing-body {
-   background-color: black;
-   height: 400px;
+   background-image: url("maze-entrance-photo.png");
+   height: 600px;
    border: 2px solid black
  }
 
