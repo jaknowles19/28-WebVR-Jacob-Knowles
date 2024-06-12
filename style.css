@@ -8,14 +8,14 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 80px;
   color: magenta;
   margin: 18px;
 }
 
 h3 {
   color: lime;
-  font-size: 50px;
+  font-size: 70px;
   margin: 20px
 }
 
@@ -72,7 +72,7 @@ h3 {
 
  .landing-body {
    background-image: url("maze-entrance.png");
-   height: 500px;
+   height: auto;
    border: 2px solid black
  }
 
