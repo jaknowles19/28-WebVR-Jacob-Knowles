@@ -257,7 +257,15 @@
     <a-plane id="endRightwall2" position="-35 5 -42.5" rotation="180 0 0" width="5" height="10" src="wood.jpg"></a-plane>
     <a-plane id="endBackwall1" position="-37.5 5 -40" rotation="0 90 0" width="5" height="10" src="wood.jpg"></a-plane>
     <a-plane id="endBackwall2" position="-37.5 5 -40" rotation="0 -90 0" width="5" height="10" src="wood.jpg"></a-plane>
-    <a-sphere id="objective" position="-35 2.5 -40" rotation="0 0 0" radius="1.5" src="earth.jpg"></a-sphere>
+    <a-sphere id="objective" position="-35 2.5 -40" rotation="0 0 0" radius="1.5" src="earth.jpg"
+      animation="
+      property: rotation;
+      from: 0 0 0;
+      to: 0 360 0;
+      loop: true;
+      easing: linear;
+      dur: 10000;
+      "></a-sphere>
 
 
     <a-plane id="endDoorLeft1" position="-32.5 5 -38.25" rotation="0 90 0" width="1.5" height="10" src="wood.jpg"></a-plane>

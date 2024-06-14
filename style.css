@@ -7,18 +7,6 @@ body {
   font-family: serif;
 }
 
-h1 {
-  font-size: 80px;
-  color: silver;
-  margin: 18px;
-}
-
-h3 {
-  color: silver;
-  font-size: 50px;
-  margin: 20px
-}
-
 .landing-top {
   background-color: darkslategray;
   height: 75px;
@@ -76,8 +64,56 @@ h3 {
    border: 2px solid black
  }
 
+  .landing-body h1 {
+    font-size: 80px;
+    color: darkslategray;
+    margin: 18px;
+  }
+
+  .landing-body h4 {
+    color: silver;
+    font-size: 50px;
+    margin: 20px
+  }
+
+  .landing-body p {
+    font-size: 30px;
+    color: lightslategray;
+    margin: 16px;
+  }
+
  .landing-bottom {
    background-color: black;
    height: 80px;
    border: 2px solid silver;
  }
+
+  .help-top {
+    background-color: darkslategray;
+    height: 75px;
+    border: 2px solid black;
+  }
+
+  .help-body {
+     background-image: url("maze-entrance.png");
+     height: auto;
+     border: 2px solid black
+   }
+
+  .help-body h2 {
+    font-size: 50px;
+    color: black;
+    margin: 20px;
+  }
+
+  .help-body p {
+    font-size: 20px;
+    color: lightslategray;
+    margin: 16px;
+  }
+
+   .help-bottom {
+     background-color: black;
+     height: 80px;
+     border: 2px solid silver;
+   }
