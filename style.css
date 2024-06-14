@@ -38,30 +38,10 @@ body {
   color: silver;
 }
 
- .button {
-   background-color: darkslategray;
-   border: 3px solid silver;
-   border-radius: 24px;
-   color: gray;
-   padding: 16px 40px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 20px;
-   margin: 4px 2px;
-   cursor: pointer;
-   transition-duration: 2s;
- }
-
-  .button:hover {
-    background-color: lightslategray;
-    color: silver;
-  }
-
  .landing-body {
    background-image: url("maze-entrance.png");
    height: auto;
-   border: 2px solid black
+   border: 2px solid black;
  }
 
   .landing-body h1 {
@@ -82,11 +62,36 @@ body {
     margin: 16px;
   }
 
+  .landing-button {
+     background-color: darkslategray;
+     border: 3px solid silver;
+     border-radius: 24px;
+     color: gray;
+     padding: 16px 40px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     margin: 4px 2px;
+     cursor: pointer;
+     transition-duration: 2s;
+   }
+
+    .landing-button:hover {
+      background-color: lightslategray;
+      color: silver;
+    }
+
  .landing-bottom {
    background-color: black;
    height: 80px;
    border: 2px solid silver;
  }
+
+  .landing-bottom a {
+    font-size: 40px;
+    color: silver;
+  }
 
   .help-top {
     background-color: darkslategray;
@@ -97,23 +102,48 @@ body {
   .help-body {
      background-image: url("maze-entrance.png");
      height: auto;
-     border: 2px solid black
+     border: 2px solid black;
    }
 
   .help-body h2 {
     font-size: 50px;
-    color: black;
+    color: silver;
     margin: 20px;
   }
 
   .help-body p {
     font-size: 20px;
     color: lightslategray;
-    margin: 16px;
+    margin: 18px;
   }
+
+  .help-button {
+     background-color: darkslategray;
+     border: 3px solid silver;
+     border-radius: 24px;
+     color: gray;
+     padding: 16px 40px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     margin: 4px 2px;
+     cursor: pointer;
+     transition-duration: 2s;
+   }
+
+    .help-button:hover {
+      background-color: lightslategray;
+      color: silver;
+    }
 
    .help-bottom {
      background-color: black;
      height: 80px;
      border: 2px solid silver;
    }
+
+    .help-bottom a {
+      font-size: 40px;
+      color: silver;
+    }
