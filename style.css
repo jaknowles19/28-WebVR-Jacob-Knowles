@@ -54,13 +54,15 @@ body {
   .landing-body h4 {
     color: silver;
     font-size: 50px;
-    margin: 20px
+    margin: 20px;
+    background-color: rgba(0,0,0,0.2);
   }
 
   .landing-body p {
     font-size: 30px;
     color: lightslategray;
     margin: 16px;
+    background-color: rgba(0,0,0,0.2);
   }
 
   .landing-button {
@@ -92,6 +94,7 @@ body {
   .landing-bottom a {
     font-size: 40px;
     color: silver;
+    background-color: rgba(0,0,0,0.2);
   }
 
   .help-top {
@@ -110,12 +113,14 @@ body {
     font-size: 45px;
     color: silver;
     margin: 20px;
+    background-color: rgba(0,0,0,0.2);
   }
 
   .help-body p {
     font-size: 20px;
     color: lightslategray;
     margin: 18px;
+    background-color: rgba(0,0,0,0.2);
   }
 
   .help-button {
@@ -147,6 +152,7 @@ body {
    .help-bottom a {
      font-size: 40px;
      color: silver;
+     background-color: rgba(0,0,0,0.2);
    }
 
   .info-top {
@@ -165,12 +171,14 @@ body {
     font-size: 45px;
     color: silver;
     margin: 20px;
+    background-color: rgba(0,0,0,0.2);
   }
 
   .info-body p {
     font-size: 20px;
     color: lightslategray;
     margin: 18px;
+    background-color: rgba(0,0,0,0.2);
   }
 
   .info-button {
@@ -202,4 +210,5 @@ body {
  .info-bottom a {
    font-size: 40px;
    color: silver;
+   background-color: rgba(0,0,0,0.2);
  }
